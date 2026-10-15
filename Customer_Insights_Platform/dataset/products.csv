@@ -1,0 +1,301 @@
+product_id,name,price,category,rating
+P001,Adjustable Dumbbells 4,965.56,sports,3.9
+P002,Leather Boots 87,964.41,clothing,4.3
+P003,Matte Lipstick 5,44.55,beauty,3.8
+P004,Facial Cleanser 72,263.29,beauty,4.5
+P005,Matte Lipstick 29,587.27,beauty,3.9
+P006,Wireless Earbuds 90,552.85,electronics,3.9
+P007,Slim Fit Jeans 14,126.0,clothing,3.6
+P008,Diffuser 34,1050.41,home,4.6
+P009,Moisturizing Cream 49,107.96,beauty,3.9
+P010,Sleeping Bag 74,254.81,sports,3.6
+P011,Resistance Bands Set 99,380.46,sports,3.6
+P012,Leather Boots 49,365.69,clothing,4.5
+P013,Memory Foam Pillow 48,465.71,home,4.5
+P014,Adjustable Dumbbells 78,827.65,sports,4.3
+P015,Running Shoes 60,497.01,clothing,5.0
+P016,Resistance Bands Set 88,425.61,sports,4.7
+P017,Smart Watch 5,1047.72,electronics,4.1
+P018,Smart Watch 73,1140.01,electronics,4.0
+P019,Tennis Racket 51,1150.77,sports,4.5
+P020,Hoodie Sweatshirt 18,325.13,clothing,4.3
+P021,Diffuser 55,1167.77,home,4.1
+P022,Running Shoes 66,644.6,clothing,4.6
+P023,Wireless Earbuds 81,213.01,electronics,4.5
+P024,Moisturizing Cream 50,499.81,beauty,5.0
+P025,Perfume Eau de Toilette 71,1119.84,beauty,3.5
+P026,Adjustable Dumbbells 88,1150.91,sports,4.6
+P027,Sleeping Bag 15,385.78,sports,3.7
+P028,4K TV 65,991.97,electronics,4.3
+P029,4K TV 82,662.91,electronics,3.8
+P030,Memory Foam Pillow 70,1239.82,home,4.9
+P031,VR Headset 42,638.25,electronics,3.7
+P032,LED Desk Lamp 31,80.95,home,4.8
+P033,Laptop Pro 94,634.86,electronics,3.6
+P034,Hyaluronic Serum 17,859.71,beauty,4.9
+P035,Hoodie Sweatshirt 68,1134.92,clothing,4.1
+P036,Wool Scarf 97,950.52,clothing,3.8
+P037,Ergonomic Chair 86,846.93,home,4.2
+P038,Clay Face Mask 16,326.78,beauty,3.6
+P039,VR Headset 71,303.76,electronics,3.8
+P040,Smartphone X 30,93.21,electronics,3.5
+P041,Air Purifier 66,313.97,home,4.5
+P042,Wool Scarf 17,942.01,clothing,4.8
+P043,Clay Face Mask 32,1021.29,beauty,4.7
+P044,Leather Boots 13,858.71,clothing,4.0
+P045,Kids Storybook 94,76.09,books,4.5
+P046,Adjustable Dumbbells 8,526.98,sports,4.0
+P047,Smart Watch 25,252.12,electronics,4.2
+P048,Startup Growth Guide 36,604.63,books,4.8
+P049,Mechanical Keyboard 71,132.68,electronics,4.5
+P050,Facial Cleanser 12,1204.71,beauty,4.8
+P051,Active Leggings 63,628.87,clothing,4.8
+P052,Wireless Earbuds 49,8.78,electronics,4.1
+P053,History Biography 55,907.38,books,4.6
+P054,Clay Face Mask 20,251.72,beauty,3.8
+P055,VR Headset 95,707.59,electronics,4.6
+P056,Smartphone X 75,622.95,electronics,4.9
+P057,Hyaluronic Serum 8,1249.24,beauty,3.6
+P058,Leather Boots 77,93.93,clothing,4.8
+P059,Sci-Fi Epic Novel 73,324.59,books,4.4
+P060,Moisturizing Cream 54,856.63,beauty,4.3
+P061,LED Desk Lamp 27,872.62,home,4.0
+P062,Ergonomic Chair 17,875.16,home,3.9
+P063,Air Purifier 2,599.01,home,5.0
+P064,Laptop Pro 69,281.81,electronics,3.9
+P065,Air Purifier 32,484.16,home,3.7
+P066,Perfume Eau de Toilette 79,1279.1,beauty,4.7
+P067,Facial Cleanser 86,1063.32,beauty,3.9
+P068,Adjustable Dumbbells 18,348.21,sports,4.8
+P069,Water Bottle Insulated 35,370.58,sports,3.8
+P070,Duo Coffee Maker 88,826.69,home,3.9
+P071,History Biography 7,125.42,books,4.1
+P072,Robot Vacuum 1,437.61,home,3.7
+P073,Memory Foam Pillow 95,577.73,home,4.6
+P074,Facial Cleanser 15,103.36,beauty,4.8
+P075,Wool Scarf 5,1085.96,clothing,4.4
+P076,Active Leggings 17,60.12,clothing,4.0
+P077,Bluetooth Speaker 27,888.58,electronics,4.5
+P078,Cookware Set 53,1266.14,home,4.6
+P079,Running Shoes 23,1146.54,clothing,3.5
+P080,Sleeping Bag 53,1044.08,sports,4.8
+P081,Hoodie Sweatshirt 21,1024.85,clothing,3.7
+P082,Mechanical Keyboard 29,264.24,electronics,4.9
+P083,LED Desk Lamp 30,294.45,home,4.5
+P084,Self-Help Journal 36,1124.46,books,5.0
+P085,Standing Desk 83,665.16,home,4.5
+P086,Lip Balm Pack 4,155.24,beauty,5.0
+P087,Silk Tie 34,55.49,clothing,4.4
+P088,Standing Desk 56,790.42,home,4.3
+P089,Python Coding Manual 33,63.43,books,4.2
+P090,Hair Oil 88,936.93,beauty,4.6
+P091,Resistance Bands Set 47,564.09,sports,4.9
+P092,Diffuser 41,864.41,home,3.7
+P093,Cookware Set 40,868.95,home,4.0
+P094,Camping Tent 4-Person 71,170.7,sports,4.1
+P095,Startup Growth Guide 79,742.41,books,4.1
+P096,4K TV 37,277.97,electronics,4.7
+P097,Lip Balm Pack 60,577.66,beauty,4.5
+P098,Clay Face Mask 95,225.57,beauty,3.6
+P099,Lip Balm Pack 12,1065.03,beauty,4.6
+P100,Camping Tent 4-Person 29,1049.68,sports,3.7
+P101,Smart Watch 61,796.98,electronics,4.7
+P102,Cookbook Recipes 81,750.91,books,4.6
+P103,Kids Storybook 52,321.71,books,4.5
+P104,Laptop Pro 100,556.13,electronics,3.8
+P105,Tennis Racket 7,727.27,sports,4.9
+P106,Mechanical Keyboard 18,1043.02,electronics,4.5
+P107,Lip Balm Pack 97,1159.5,beauty,4.4
+P108,Hiking Backpack 71,583.0,sports,3.7
+P109,Kids Storybook 34,978.79,books,4.8
+P110,Cookware Set 63,817.0,home,3.9
+P111,4K TV 31,357.59,electronics,4.0
+P112,Moisturizing Cream 18,201.16,beauty,4.1
+P113,Cotton T-Shirt 9,542.83,clothing,4.0
+P114,Cookbook Recipes 8,273.63,books,4.1
+P115,Facial Cleanser 98,750.93,beauty,4.2
+P116,LED Desk Lamp 97,510.63,home,4.8
+P117,Python Coding Manual 63,289.92,books,4.2
+P118,Gaming Mouse 44,871.51,electronics,4.7
+P119,Water Bottle Insulated 60,1195.88,sports,5.0
+P120,Facial Cleanser 51,771.9,beauty,4.5
+P121,Gaming Mouse 18,1127.7,electronics,3.8
+P122,Ergonomic Chair 42,279.88,home,4.0
+P123,History Biography 97,1236.85,books,4.1
+P124,Mechanical Keyboard 3,975.23,electronics,3.6
+P125,Duo Coffee Maker 84,94.78,home,4.9
+P126,Smartphone X 32,263.96,electronics,3.5
+P127,Cotton T-Shirt 17,618.78,clothing,3.7
+P128,Summer Dress 90,337.57,clothing,4.1
+P129,Moisturizing Cream 100,1066.17,beauty,4.9
+P130,VR Headset 4,1207.97,electronics,4.4
+P131,Cookbook Recipes 92,262.63,books,4.4
+P132,Resistance Bands Set 14,908.16,sports,4.0
+P133,Adjustable Dumbbells 73,1018.72,sports,4.0
+P134,Self-Help Journal 9,660.7,books,4.0
+P135,Kids Storybook 14,566.97,books,4.0
+P136,Startup Growth Guide 56,233.91,books,4.3
+P137,Camping Tent 4-Person 79,1051.8,sports,4.3
+P138,Kids Storybook 56,1074.49,books,4.4
+P139,Duo Coffee Maker 12,366.92,home,4.2
+P140,Cookbook Recipes 44,43.13,books,4.8
+P141,Summer Dress 28,465.13,clothing,3.9
+P142,Diffuser 90,1144.85,home,4.3
+P143,Sunscreen SPF 50 11,318.3,beauty,4.1
+P144,Sunscreen SPF 50 89,622.05,beauty,4.6
+P145,Mystery Thriller Book 12,386.73,books,4.1
+P146,Hoodie Sweatshirt 85,758.52,clothing,4.2
+P147,Lip Balm Pack 55,1295.63,beauty,4.3
+P148,Slow Cooker 35,402.76,home,3.8
+P149,Resistance Bands Set 41,160.69,sports,4.3
+P150,Water Bottle Insulated 25,285.99,sports,4.2
+P151,Camping Tent 4-Person 13,1083.41,sports,3.9
+P152,Memory Foam Pillow 39,24.3,home,4.3
+P153,Robot Vacuum 7,722.04,home,4.5
+P154,Summer Dress 14,1135.29,clothing,4.4
+P155,Kids Storybook 57,446.86,books,4.9
+P156,Slow Cooker 15,1069.81,home,4.1
+P157,VR Headset 81,894.26,electronics,3.7
+P158,Perfume Eau de Toilette 11,1292.12,beauty,3.7
+P159,Python Coding Manual 100,682.2,books,4.2
+P160,History Biography 76,1287.09,books,4.0
+P161,Facial Cleanser 79,1248.37,beauty,3.6
+P162,Cotton T-Shirt 34,860.58,clothing,3.7
+P163,Wool Scarf 10,208.54,clothing,4.1
+P164,Tennis Racket 38,48.23,sports,3.9
+P165,Slow Cooker 10,895.47,home,4.9
+P166,Resistance Bands Set 55,154.51,sports,3.8
+P167,Hoodie Sweatshirt 19,98.39,clothing,3.7
+P168,Diffuser 96,1072.56,home,4.9
+P169,Sci-Fi Epic Novel 60,897.14,books,4.5
+P170,Cookware Set 70,644.96,home,3.6
+P171,Gaming Mouse 95,423.07,electronics,3.9
+P172,Smart Watch 87,1087.72,electronics,4.4
+P173,4K TV 74,58.05,electronics,4.6
+P174,Kids Storybook 36,240.84,books,4.4
+P175,Tennis Racket 12,614.18,sports,4.1
+P176,Air Purifier 21,432.76,home,4.5
+P177,Ergonomic Chair 98,717.82,home,4.2
+P178,LED Desk Lamp 42,155.99,home,4.7
+P179,Facial Cleanser 85,1130.95,beauty,4.2
+P180,Smart Watch 67,474.13,electronics,4.6
+P181,Tennis Racket 98,72.78,sports,3.9
+P182,Hoodie Sweatshirt 57,1145.81,clothing,4.2
+P183,VR Headset 31,924.45,electronics,4.0
+P184,Tablet Air 53,126.6,electronics,5.0
+P185,Mechanical Keyboard 16,844.13,electronics,3.7
+P186,Camping Tent 4-Person 66,918.79,sports,4.1
+P187,Kids Storybook 32,597.07,books,3.7
+P188,Silk Tie 66,971.69,clothing,3.7
+P189,4K TV 99,1028.26,electronics,4.1
+P190,Perfume Eau de Toilette 1,371.98,beauty,3.9
+P191,Clay Face Mask 20,583.82,beauty,4.2
+P192,Cookware Set 98,709.19,home,4.2
+P193,Duo Coffee Maker 90,315.0,home,4.1
+P194,Mystery Thriller Book 41,969.64,books,4.6
+P195,Cookbook Recipes 85,1031.35,books,4.5
+P196,Summer Dress 5,169.35,clothing,4.9
+P197,Air Purifier 57,135.02,home,4.9
+P198,Wireless Earbuds 53,1132.98,electronics,5.0
+P199,Mechanical Keyboard 34,444.09,electronics,4.5
+P200,Adjustable Dumbbells 43,1108.92,sports,4.8
+P201,Self-Help Journal 81,936.01,books,4.6
+P202,Facial Cleanser 80,94.53,beauty,4.4
+P203,Duo Coffee Maker 96,122.94,home,5.0
+P204,Adjustable Dumbbells 57,221.27,sports,3.9
+P205,Smartphone X 42,1036.2,electronics,3.9
+P206,Ergonomic Chair 19,321.98,home,4.1
+P207,Water Bottle Insulated 22,232.53,sports,4.4
+P208,Python Coding Manual 64,1187.19,books,3.7
+P209,History Biography 59,336.38,books,3.5
+P210,History Biography 87,713.29,books,3.6
+P211,Diffuser 39,832.78,home,4.1
+P212,Slow Cooker 39,263.78,home,4.1
+P213,Sci-Fi Epic Novel 31,499.48,books,4.0
+P214,LED Desk Lamp 3,1271.45,home,4.5
+P215,Robot Vacuum 73,1125.39,home,4.7
+P216,VR Headset 96,648.76,electronics,4.9
+P217,Duo Coffee Maker 78,1043.69,home,3.8
+P218,Silk Tie 33,883.02,clothing,4.6
+P219,Water Bottle Insulated 81,131.72,sports,4.4
+P220,4K TV 57,49.16,electronics,4.0
+P221,Leather Boots 38,428.76,clothing,4.1
+P222,Running Shoes 70,1140.13,clothing,4.0
+P223,Perfume Eau de Toilette 22,338.51,beauty,4.7
+P224,History Biography 96,1132.28,books,4.7
+P225,Sci-Fi Epic Novel 19,981.86,books,3.8
+P226,Hiking Backpack 72,479.3,sports,4.7
+P227,4K TV 69,165.91,electronics,4.1
+P228,Camping Tent 4-Person 75,499.04,sports,4.5
+P229,Air Purifier 87,308.56,home,3.5
+P230,Lip Balm Pack 79,292.44,beauty,3.6
+P231,History Biography 84,534.32,books,3.7
+P232,4K TV 64,156.25,electronics,3.9
+P233,Hyaluronic Serum 50,593.01,beauty,4.5
+P234,Hiking Backpack 76,966.49,sports,3.7
+P235,Sci-Fi Epic Novel 63,802.64,books,4.9
+P236,Robot Vacuum 89,485.46,home,4.2
+P237,Slim Fit Jeans 13,1275.31,clothing,4.1
+P238,Sleeping Bag 8,521.18,sports,3.8
+P239,Mechanical Keyboard 12,863.61,electronics,4.5
+P240,Facial Cleanser 7,1024.1,beauty,3.9
+P241,Silk Tie 27,94.77,clothing,4.6
+P242,Silk Tie 28,1058.08,clothing,3.8
+P243,Silk Tie 1,364.78,clothing,5.0
+P244,Wool Scarf 33,1039.27,clothing,3.7
+P245,Wireless Earbuds 2,469.56,electronics,4.7
+P246,Lip Balm Pack 3,231.46,beauty,3.6
+P247,Hiking Backpack 68,153.05,sports,3.6
+P248,Self-Help Journal 66,774.19,books,4.2
+P249,Silk Tie 6,947.04,clothing,4.9
+P250,Camping Tent 4-Person 59,838.47,sports,3.5
+P251,Cookbook Recipes 55,893.8,books,4.2
+P252,Sci-Fi Epic Novel 11,422.8,books,3.7
+P253,Hoodie Sweatshirt 80,825.19,clothing,4.3
+P254,Ergonomic Chair 77,692.53,home,4.2
+P255,Matte Lipstick 13,1032.26,beauty,3.7
+P256,Resistance Bands Set 56,590.3,sports,3.8
+P257,Slow Cooker 52,544.28,home,3.6
+P258,Self-Help Journal 86,335.82,books,4.9
+P259,Tennis Racket 9,124.03,sports,3.6
+P260,Sci-Fi Epic Novel 96,961.99,books,4.7
+P261,Facial Cleanser 76,1243.86,beauty,4.3
+P262,Adjustable Dumbbells 53,463.55,sports,4.5
+P263,Mystery Thriller Book 37,782.92,books,4.0
+P264,Hair Oil 28,206.21,beauty,4.2
+P265,Bluetooth Speaker 72,481.61,electronics,4.6
+P266,Sunscreen SPF 50 55,1099.62,beauty,5.0
+P267,Hair Oil 4,794.03,beauty,4.5
+P268,Camping Tent 4-Person 4,239.45,sports,4.6
+P269,Standing Desk 45,13.89,home,4.8
+P270,Matte Lipstick 9,189.58,beauty,4.4
+P271,Laptop Pro 96,692.43,electronics,4.1
+P272,Self-Help Journal 21,484.84,books,4.6
+P273,Moisturizing Cream 7,207.31,beauty,4.6
+P274,Laptop Pro 35,579.38,electronics,4.1
+P275,Clay Face Mask 54,359.47,beauty,4.6
+P276,Bluetooth Speaker 56,149.48,electronics,4.5
+P277,Clay Face Mask 68,869.26,beauty,3.6
+P278,Mystery Thriller Book 1,270.51,books,4.9
+P279,Hoodie Sweatshirt 38,430.58,clothing,3.5
+P280,Hiking Backpack 23,173.16,sports,4.3
+P281,Wool Scarf 72,1084.35,clothing,4.7
+P282,Gaming Mouse 95,60.73,electronics,3.5
+P283,Bluetooth Speaker 74,561.48,electronics,4.1
+P284,Hiking Backpack 38,155.02,sports,3.5
+P285,Memory Foam Pillow 80,601.36,home,4.5
+P286,Air Purifier 56,1098.75,home,3.9
+P287,Matte Lipstick 68,107.76,beauty,4.8
+P288,Sleeping Bag 29,436.98,sports,3.8
+P289,Moisturizing Cream 68,665.87,beauty,4.9
+P290,Standing Desk 94,1245.93,home,4.5
+P291,Cotton T-Shirt 14,195.49,clothing,3.8
+P292,Hyaluronic Serum 98,988.33,beauty,3.6
+P293,Tennis Racket 60,982.24,sports,4.6
+P294,Self-Help Journal 81,415.07,books,4.2
+P295,Kids Storybook 81,397.84,books,3.9
+P296,Bluetooth Speaker 65,101.99,electronics,4.2
+P297,Smartphone X 48,1082.21,electronics,3.6
+P298,VR Headset 77,662.14,electronics,4.2
+P299,Facial Cleanser 58,1182.3,beauty,4.4
+P300,Slim Fit Jeans 78,621.45,clothing,3.7

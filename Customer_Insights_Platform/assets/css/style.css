@@ -1,0 +1,275 @@
+/* Style adjustments for premium SaaS analytics platform */
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Custom CSS variables for light/dark support */
+:root {
+    --primary-gradient: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+    --secondary-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    --warning-gradient: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    --danger-gradient: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    --info-gradient: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+    
+    --card-bg-light: #ffffff;
+    --card-bg-dark: #1e293b;
+    --border-light: rgba(226, 232, 240, 0.8);
+    --border-dark: rgba(255, 255, 255, 0.08);
+}
+
+/* Card Styling */
+.kpi-card {
+    border-radius: 16px;
+    padding: 24px;
+    margin: 10px 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    position: relative;
+    overflow: hidden;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Gradient Borders for Cards */
+.kpi-primary {
+    border-left: 5px solid #4f46e5;
+    background: linear-gradient(to right, rgba(79, 70, 229, 0.05), rgba(79, 70, 229, 0.01));
+}
+.kpi-success {
+    border-left: 5px solid #10b981;
+    background: linear-gradient(to right, rgba(16, 185, 129, 0.05), rgba(16, 185, 129, 0.01));
+}
+.kpi-warning {
+    border-left: 5px solid #f59e0b;
+    background: linear-gradient(to right, rgba(245, 158, 11, 0.05), rgba(245, 158, 11, 0.01));
+}
+.kpi-danger {
+    border-left: 5px solid #ef4444;
+    background: linear-gradient(to right, rgba(239, 68, 68, 0.05), rgba(239, 68, 68, 0.01));
+}
+.kpi-info {
+    border-left: 5px solid #06b6d4;
+    background: linear-gradient(to right, rgba(6, 182, 212, 0.05), rgba(6, 182, 212, 0.01));
+}
+
+/* Card Content styling */
+.kpi-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.kpi-value {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.kpi-trend {
+    font-size: 0.875rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.trend-up {
+    color: #10b981;
+}
+
+.trend-down {
+    color: #ef4444;
+}
+
+/* Badge styling */
+.badge {
+    padding: 6px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.badge-admin {
+    background-color: rgba(79, 70, 229, 0.15);
+    color: #4f46e5;
+    border: 1px solid rgba(79, 70, 229, 0.3);
+}
+
+.badge-manager {
+    background-color: rgba(6, 182, 212, 0.15);
+    color: #0891b2;
+    border: 1px solid rgba(6, 182, 212, 0.3);
+}
+
+.badge-analyst {
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #059669;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Sidebar branding logo styling */
+.sidebar-brand {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.sidebar-brand img {
+    max-height: 60px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sidebar-brand-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+    background: linear-gradient(135deg, #818cf8 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Custom Product Card */
+.product-card {
+    background: var(--card-bg-light);
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px 0;
+    transition: all 0.2s ease;
+}
+
+[data-theme="dark"] .product-card {
+    background: var(--card-bg-dark);
+    border: 1px solid var(--border-dark);
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
+}
+
+/* Custom table wrapper */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th {
+    background-color: rgba(79, 70, 229, 0.08);
+    font-weight: 600;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px solid rgba(79, 70, 229, 0.15);
+}
+
+.custom-table td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .custom-table td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Form layouts */
+.login-card {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.15);
+    background: var(--card-bg-light);
+    border: 1px solid var(--border-light);
+}
+
+[data-theme="dark"] .login-card {
+    background: var(--card-bg-dark);
+    border: 1px solid var(--border-dark);
+}
+
+/* Header gradient line */
+.gradient-header {
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(90deg, #4f46e5, #06b6d4, #10b981);
+    margin-bottom: 24px;
+    border-radius: 2px;
+}
+
+/* Recommendations Card Grid */
+.rec-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.rec-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    border: 1px solid var(--border-light);
+}
+[data-theme="dark"] .rec-card {
+    border: 1px solid var(--border-dark);
+}
+.rec-card:hover {
+    transform: translateY(-5px);
+}
+.rec-img-placeholder {
+    height: 140px;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #94a3b8;
+    font-size: 2.5rem;
+}
+.rec-details {
+    padding: 16px;
+}
+.rec-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.rec-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #4f46e5;
+    margin-bottom: 8px;
+}
+.rec-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #64748b;
+}
+
+/* Custom banner */
+.dashboard-banner {
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(79, 70, 229, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+    border: 1px solid rgba(79, 70, 229, 0.2);
+    margin-bottom: 24px;
+}
