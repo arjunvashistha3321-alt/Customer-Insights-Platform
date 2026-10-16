@@ -67,7 +67,7 @@ def generate_and_seed_data():
     # Write Products to CSV & DB
     df_products = pd.DataFrame(products_data, columns=["product_id", "name", "price", "category", "rating"])
     df_products.to_csv(os.path.join(DATASET_DIR, "products.csv"), index=False)
-    cursor.executemany("INSERT INTO Products VALUES (?, ?, ?, ?, ?)", products_data)
+    cursor.executemany("INSERT OR IGNORE INTO Products (product_id, name, price, category, rating) VALUES (?, ?, ?, ?, ?)", products_data)
     
     # B. Generate Customers (10,000 customers)
     us_states = ["CA", "NY", "TX", "FL", "IL", "PA", "OH", "GA", "NC", "MI"]
@@ -167,8 +167,8 @@ def generate_and_seed_data():
     df_orders.to_csv(os.path.join(DATASET_DIR, "orders.csv"), index=False)
     
     # DB Bulk Insert
-    cursor.executemany("INSERT INTO Orders VALUES (?, ?, ?, ?, ?, ?)", orders_data)
-    cursor.executemany("INSERT INTO Transactions VALUES (?, ?, ?, ?, ?)", transactions_data)
+    cursor.executemany("INSERT OR IGNORE INTO Orders (order_id, customer_id, order_date, total_amount, payment_method, status) VALUES (?, ?, ?, ?, ?, ?)", orders_data)
+    cursor.executemany("INSERT OR IGNORE INTO Transactions (transaction_id, order_id, transaction_date, amount, status) VALUES (?, ?, ?, ?, ?)", transactions_data)
     
     # Calculate Customer aggregation metrics to update Customers table
     print("Updating customer metrics in SQLite database...")
@@ -225,7 +225,7 @@ def generate_and_seed_data():
     
     # Insert Customers into SQLite
     customers_tuples = [tuple(x) for x in df_customers_final.values]
-    cursor.executemany("INSERT INTO Customers VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", customers_tuples)
+    cursor.executemany("INSERT OR IGNORE INTO Customers (customer_id, name, age, gender, city, state, country, email, phone, occupation, registration_date, loyalty_status, clv, churn_risk_score, purchase_frequency) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)", customers_tuples)
     
     conn.commit()
     conn.close()
